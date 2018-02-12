@@ -1,0 +1,9 @@
+<!--pages/list_view/list_view.wxml-->
+<view style='margin-bottom:10rpx; margin-top:10rpx;' hover-class='container-hover' wx:for="{{ladders}}" wx:for-index="idx" wx:for-item="item">
+  <view id='{{idx}}' bindtap='toQRCode'>
+    <text class='item' style=''>ip：{{item.ip}}</text>
+    <text class='item'>端口： {{item.port}}</text>
+    <text class='item'>密码： {{item.pwd}}</text>
+    <text class='item'>加密方式： {{item.encryption}}</text>
+  </view>
+</view>

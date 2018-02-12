@@ -1,0 +1,7 @@
+<!--pages/qrcode/qrcode.wxml-->
+<view class='container'>
+  <image class='img' src='{{img}}'></image>
+  <text class='text'>{{ssURL}}</text>
+  <button bindtap='copyToClipboard'>复制到剪切板</button>
+</view>
+

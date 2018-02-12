@@ -1,0 +1,16 @@
+/* pages/list_view/list_view.wxss */
+.container {
+  margin-bottom:10rpx;
+}
+.container-hover {
+  background-color: #E6E6E6
+}
+
+.item {
+  display: flex;
+  padding-left: 30rpx;
+  padding-top: 3rpx;
+  padding-bottom: 3rpx;
+  font-size: 38rpx;
+  font-style: Tahoma, Arial;
+}
